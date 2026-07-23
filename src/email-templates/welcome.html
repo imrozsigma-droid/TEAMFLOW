@@ -1,0 +1,14 @@
+<!-- welcome.html — Usage: sendTemplateEmail({ to, subject: 'Welcome!', templateName: 'welcome', data: { USER_NAME: '...', APP_NAME: '...' } }) -->
+<h2 style="margin-top:0">Welcome, {{USER_NAME}}!</h2>
+<p>
+  Your account has been created successfully. You can now sign in and start using
+  <strong>{{APP_NAME}}</strong>.
+</p>
+<p style="margin-top:24px">
+  <a href="{{LOGIN_URL}}" style="display:inline-block;background:#0f172a;color:#fff;padding:12px 24px;border-radius:6px;font-weight:600;text-decoration:none">
+    Sign in to your account
+  </a>
+</p>
+<p style="margin-top:24px;color:#64748b;font-size:13px">
+  If you did not create this account, you can safely ignore this email.
+</p>
